@@ -1,30 +1,13 @@
-# Magisk Module Template
+# Honor V10 Stock Camera
 
-This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
+## Information
+This module can be flashed with all Honor View 10 custom ROMs.
 
-**Please update `README.md` if you want to submit your module to the online repo!**
+## Features
+- HwCamera2 from EMUI stock ROM
+- All features of Honor V10's stock Camera app
+- Camera2 API support for other apps
+- EIS support (for 1080p30)
 
-Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/modules.md)
-
----
-# **Module Name**
-## Description
-Description here
-## Changelog
-Changelog here
-## Requirements
-- Requirement 1
-- Requirement *
-- Requirement n
-## Instructions
-Instructions here
-- Or other instructions here
-- Followed by more instructions
-1. Or a list of instructions
-2. With more instructions
-## Links
-[Module XDA Forum Thread](https://forum.xda-developers.com/apps/magisk/module-url-here "Module official XDA thread")
-
-[Latest stable Magisk](http://www.tiny.cc/latestmagisk)
+## Bugs
+- Pictures taken with front camera in portrait mode aren't saved

@@ -41,7 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "  HwCamera2 for Honor View 10  "
   ui_print "*******************************"
 }
 
@@ -63,6 +63,8 @@ REPLACE="
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
+/system/app/Camera2
+/system/app/SnapdragonCamera2
 "
 
 ##########################################################################################
@@ -84,7 +86,9 @@ set_permissions() {
   # set_perm  $MODPATH/system/lib/libart.so       0       0       0644
 
   # The following is default permissions, DO NOT remove
-  set_perm_recursive  $MODPATH  0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/lib                               0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/lib64                             0  0  0755  0644
+  set_perm            $MODPATH/system/priv-app/HwCamera2/HwCamera2.apk  0  0  0644
 }
 
 ##########################################################################################
