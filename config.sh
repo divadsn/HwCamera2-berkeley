@@ -65,6 +65,7 @@ REPLACE="
 REPLACE="
 /system/app/Camera2
 /system/app/SnapdragonCamera2
+/system/priv-app/HwCamera2
 "
 
 ##########################################################################################
