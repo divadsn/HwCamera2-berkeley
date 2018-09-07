@@ -2,6 +2,6 @@ id=HwCamera2
 name=Honor V10 Stock Camera
 version=v8.1.0.300-berkeley
 versionCode=8100
-author=David Sn (@divadsn)
+author=David Sn (@divadsn) & flex1911 @ xda-developers
 description=Stock HwCamera2 with all functionality for any custom ROM on Honor View 10 (berkeley), systemlessly.
 minMagisk=17000
