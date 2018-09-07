@@ -88,7 +88,6 @@ set_permissions() {
 
   # The following is default permissions, DO NOT remove
   set_perm_recursive  $MODPATH/system/lib                               0  0  0755  0644
-  set_perm_recursive  $MODPATH/system/lib64                             0  0  0755  0644
   set_perm            $MODPATH/system/priv-app/HwCamera2/HwCamera2.apk  0  0  0644
 }
 
